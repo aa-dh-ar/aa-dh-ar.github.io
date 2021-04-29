@@ -1,0 +1,15 @@
+body{
+	background-color: rgb(255,246,225);
+}
+a{
+	font-size: 20px;
+	color: black;
+	background-color: rgba(211,112,88,255);
+	padding: 10px;
+	font-family: arial;
+	font-style: italic;
+	}
+.video{
+	height: 100%;
+	width: 100%;
+}

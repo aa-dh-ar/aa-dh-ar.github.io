@@ -1,0 +1,46 @@
+body{
+	background-color:rgba(211,112,88,255) ;
+}
+a{
+	font-size: 20px;
+	color: black;
+	background-color: rgb(255,246,225);
+	padding: 10px;
+	font-family: arial;
+	font-style: italic;
+
+}
+
+h1{
+	position: relative;
+	text-align: center;
+}
+
+h2{
+	position: relative;
+	text-align: center;
+	background-color: rgb(255,246,225);
+	position: relative;
+	width: 50%;
+	left: 25%;
+}
+
+.CommsLab{
+	width: 400px;
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	background-color: rgb(255,246,225);
+	left: 34.5%;
+}
+
+.details{
+	width: 400px;
+	text-align: center;
+	position: relative;
+	left: 34.5%;
+	font-size: 20px;
+	background-color: rgb(255,246,225);
+}
+
+

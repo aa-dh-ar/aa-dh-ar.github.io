@@ -1,0 +1,33 @@
+body{
+	background-color: rgba(211,112,88,255);
+}
+h1{
+	position: relative;
+	text-align: center;
+}
+.ack{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: sans-serif;
+}
+a{
+	font-size: 20px;
+	color: black;
+	background-color: rgb(255,246,225);
+	padding: 10px;
+	font-family: arial;
+	font-style: italic;
+}
+.Aadhar{
+	background-color: rgb(255,246,225);
+	width: 40%;
+	position: relative;
+	left: 50px;
+}
+.Sonika{
+	background-color: rgb(255,246,225);
+	width: 40%;
+	position: relative;
+	right: 50px;
+}
