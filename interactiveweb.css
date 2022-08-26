@@ -1,0 +1,306 @@
+
+.container{
+	background-image: url(branches.png);
+	background-size: cover;
+	filter: blur(10px);
+	background-position: center center;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	color: rgb(100,255,100);
+	font-size: 3vw;
+	transition: 1s ease;
+	text-decoration: none;
+}
+
+.main:hover{
+	color: rgb(80,30,70);
+	transform: scale(1.5);
+}
+
+.Project1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.pic1{
+	display: flex;
+	justify-content: center;
+	width: 50vw;
+}
+
+.text1{
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: rgb(100,255,100);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.head1{
+	font-size: clamp(20px,3vw,40px);/*determining the maximum and minimum sizes of the responsive text*/
+	font-weight: bolder;
+	color: rgb(100,255,100);
+	position: relative;
+	text-decoration: none;
+	transition: 1s ease;
+}
+
+.head1:hover{
+	color: rgb(80,30,70);
+	transform: scale(1.2);
+}
+
+.para1{
+	padding: 10px;
+	font-weight: bold;
+	font-size: clamp(15px,2vw,30px);
+
+	
+}
+
+.link1{
+	font-size: clamp(15px,2vw,30px)
+}
+
+.link{
+	font-size: clamp(15px,2vw,30px)
+}
+
+.l1{
+	color: rgb(80,30,70);
+	text-decoration: none;/*getting rid of the persistent underline in links*/
+	padding: 10px;
+}
+
+.l1:hover{
+	transform: scale(1.2);
+	background: rgb(240,240,240);
+	font-weight: bold;
+}
+
+.l:hover{
+	transform: scale(1.2);
+	background: rgb(240,240,240);
+	font-weight: bold;
+}
+.Project2{
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.text2{
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: rgb(100,255,100);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.head2{
+	font-size: clamp(20px,3vw,40px);
+	color: rgb(100,255,100);
+	font-weight: bolder;
+	position: relative;
+	top: 30%;
+	transition: 1s ease;
+	text-decoration: none;
+}
+
+.head2:hover{
+	color: rgb(80,30,70);
+	transform: scale(1.2);
+}
+
+.para2{
+	padding: 10px;
+	font-size: clamp(15px,2vw,30px);
+	font-weight: bold;
+	position: relative;
+	top: 30%;
+}
+
+.pic2{
+	display: flex;
+	justify-content: center;
+	width: 50vw;
+
+}
+
+.Project3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.pic3{
+	display: flex;
+	justify-content: center;
+	width: 50vw;
+}
+
+.text3{
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: rgb(100,255,100);
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+.head3{
+	font-size: clamp(20px,3vw,40px);
+	font-weight: bolder;
+	color: rgb(100,255,100);
+	position: relative;
+	text-decoration: none;
+	transition: 1s ease;
+	position: relative;
+	top: 30%;
+}
+
+.head3:hover{
+	color: rgb(80,30,70);
+	transform: scale(1.2);
+}
+
+.para3{
+	padding: 10px;
+	font-size: clamp(15px,2vw,30px);
+	position: relative;
+	top: 30%;
+	font-weight: bold;
+}
+
+.link{
+	padding: 50px;
+}
+.l{
+	color: rgb(80,30,70);
+	text-decoration: none;
+	padding: 10px;
+}
+
+.Project4{
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.text4{
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: rgb(100,255,100);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.head4{
+	font-size: clamp(20px,3vw,40px);
+	color: rgb(100,255,100);
+	font-weight: bolder;
+	position: relative;
+	top: 30%;
+	transition: 1s ease;
+	text-decoration: none;
+}
+
+.head4:hover{
+	color: rgb(80,30,70);
+	transform: scale(1.2);
+}
+
+.para4{
+	padding: 10px;
+	font-size: clamp(15px,2vw,30px);
+	font-weight: bold;
+	position: relative;
+	top: 30%;
+}
+
+.pic4{
+	display: flex;
+	justify-content: center;
+	width: 50vw;
+
+}
+
+/*giving the page a different layout once the screen width is less than or equal to 999px*/
+@media screen and (max-width: 999px){
+
+	.Project1{
+		flex-direction: column;
+	}
+
+	.text1{
+		width: 100vw;
+	}
+
+	.pic1{
+		width: 100vw;
+	}
+
+	.Project2{
+		flex-direction: column-reverse;
+	}
+
+	.text2{
+		width: 100vw;
+	}
+
+	.pic2{
+		width: 100vw;
+	}
+
+	.Project3{
+		flex-direction: column;
+	}
+
+	.text3{
+		width: 100vw;
+	}
+	.pic3{
+		width: 100vw;
+	}
+
+	.Project4{
+		flex-direction: column-reverse;
+	}
+
+	.text4{
+		width: 100vw;
+	}
+
+	.pic4{
+		width: 100vw;
+	}
+}
+
+
